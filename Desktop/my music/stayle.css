@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Indie+Flower&family=Karla:wght@200&family=Lato:wght@300&family=Lobster&family=Oswald:wght@300&family=Pacifico&family=Quicksand:wght@300;400;500&family=Raleway:wght@100&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background: url(./img/Rectangle\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px
+}
+
+nav {
+    display: flex;
+    justify-content: center
+}
+
+.item a {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.list a:hover {
+    color: indigo
+}
+
+.fother_heder {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 152px;
+}
+
+.heder_text {
+    font-size: 46px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+
+}
+
+.heder_prog {
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-bottom: 33px;
+
+}
+
+.btn {
+    padding: 14px 40px;
+    background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+    border-radius: 46px;
+    margin-bottom: 160px;
+    color: #FFFFFF;
+    border: none;
+
+}
+
+/* *****************************************secion1*************************************** */
+.section_1 {
+    background: #230127;
+    padding-bottom: 250px;
+
+}
+
+.section_big {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.secction_info {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 50px;
+
+}
+
+.card {
+    padding: 20px;
+    background: radial-gradient(2464.13% 850.69% at 100% 6.65%, #BB82DB 0%, #636DC1 19.3%, #1D0F35 100%);
+    border-radius: 10px;
+}
+
+.card_h2 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+    color: #ffffff;
+    padding-bottom: 35px;
+}
+
+.card_paro {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 17px;
+
+}
+
+.card_btn {
+    padding: 6px 42px;
+    background: #FFFFFF;
+    border-radius: 37px;
+    color: indigo;
+    font-size: 20px;
+    border: none
+}
+
+.big_section_1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.secction_info_1 {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 50px;
+
+}
+
+.big_section_1 {
+    padding-top: 150px;
+}
+
+.section_nav {
+    text-align: center;
+    display: flex;
+    justify-content: center
+}
+
+.list_section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+}
+
+.item_section a {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.item_section a:focus {
+    padding: 7px 18px;
+    background: #D70BCA;
+    border-radius: 23px;
+}
+
+.card_two {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card_1 {
+    padding: 20px;
+    background: radial-gradient(2464.13% 850.69% at 100% 6.65%, #BB82DB 0%, #636DC1 19.3%, #1D0F35 100%);
+    border-radius: 10px;
+}
+
+.footer_1 {
+    padding-top: 10px;
+    background: #000000
+}
+
+.footer_big {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_h {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 19px;
+    color: #ffffff;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+    position: relative;
+
+}
+
+form input {
+    background: radial-gradient(2464.13% 850.69% at 100% 6.65%, rgb(79, 17, 114) 0%, rgb(51, 60, 145) 19.3%, rgb(26, 4, 36) 100%);
+    padding: 5px 130px;
+    border-radius: 48px;
+    border: none;
+    border: 1px solid white;
+    margin-bottom: 10%;
+
+
+}
+
+.img_svg {
+    position: absolute;
+    left: 38%;
+    top: 26px;
+}
+
+.text {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.footer_col {
+    border-bottom: 1px solid white;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    padding-top: 30px;
+}
+
+.footer_p {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+
+}
+
+.instagram {
+    position: relative;
+    border: 0.5px solid white;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+}
+
+.absalyut {
+    position: absolute;
+    left: 25.15%;
+    top: 25%
+}
+
+.tele {
+    display: flex;
+    justify-content: center;
+    padding-right: 65%;
+}
+
+.footer_col_1 {
+    border-bottom: 1px solid white;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.apple {
+    position: relative;
+    border: 0.5px solid white;
+    border-radius: 11px;
+    width: 180px;
+    height: 80px;
+}
+
+
+.div {
+    padding-top: 15%
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.box_text {
+    color: white;
+    font-size: 11px;
+    margin-bottom: 0
+}
+
+.footer_col_2 {
+
+    border-bottom: 1px solid white;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    text-transform: uppercase;
+
+
+}
+
+.index {
+    color: #f1f1f1
+}
+
+.html {
+    list-style-type: disc;
+    font-size: 14px;
+    line-height: 45px;
+
+}
